@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2 class="color">Sam's Pizza - Order Form</h2>
+        <form onsubmit="return submitForm()">
+            <label for="phone">Phone number:</label>
+            <input type="text" id="phone" name="phone">
+            <br><br>
+    
+            <label for="size">Pizza size:</label>
+            <select id="size" name="size">
+                <option value="Large">Large</option>
+                <option value="Medium">Medium</option>
+                <option value="Small">Small</option>
+            </select>
+            <br><br>
+            <label>Toppings:</label><br>
+            <input type="checkbox" id="sausage" name="toppings" value="Sausage"> Corn🌽<br>
+            <input type="checkbox" id="onion" name="toppings" value="Onion"> Onion🧅<br>
+            <input type="checkbox" id="greenpepper" name="toppings" value="Green pepper"> Tomato🍅<br>
+            <br>
+            <div class="buttons">
+            <input type="radio" id="delivery" name="delivery" value="Delivery"><strong>Delivery</strong> 
+            <input type="radio" id="carryout" name="delivery" value="Carry out"><strong>Carry out</strong> <br><br>
+            </div>
+            <div class="buttons">
+                <input type="button" value="Reset" onclick="resetForm()" class="buttons">
+                <input type="submit" value="Place your order" class="buttons">
+            </div>
+            <br>
+        </form>  
+    
+    <div class="output" id="output"></div>
+        <footer class="color"><strong>© 2014</strong></footer>
+    </div>
+    <div id="orderSummary"></div>
+    <script src="index.js"></script>
+</body>
+</html>

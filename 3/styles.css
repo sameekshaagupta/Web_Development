@@ -1,0 +1,20 @@
+.color{
+    text-align: center;
+    background-color: rgb(225, 255, 255);
+}
+.form-container{
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+.buttons{
+    text-align: center;
+    border-radius: 20px;
+}
+#orderSummary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
