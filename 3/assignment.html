@@ -8,16 +8,16 @@
 </head>
 <body>
     <div class="form-container">
-        <h2 class="color">Sam's Pizza - Order Form</h2>
+        <h2 class="color">Sam's Cafe - Menu</h2>
         <form onsubmit="return submitForm()">
             <label for="phone">Phone number:</label>
             <input type="text" id="phone" name="phone">
             <br><br>
-            <label for="size">Pizza size:</label>
+            <label for="size">Items</label>
             <select id="size" name="size">
-                <option value="Large">Large</option>
-                <option value="Medium">Medium</option>
-                <option value="Small">Small</option>
+                <option value="Large">Pizza</option>
+                <option value="Medium">Pasta</option>
+                <option value="Small">Noodles</option>
             </select>
             <br><br>
             <label>Toppings:</label><br>
@@ -36,9 +36,7 @@
             <br>
         </form>  
     
-    <div class="output" id="output"></div>
-        <footer class="color"><strong>© 2014</strong></footer>
-    </div>
+ 
     <div id="orderSummary"></div>
     <script src="index.js"></script>
 </body>
