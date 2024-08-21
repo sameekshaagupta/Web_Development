@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(224, 254, 244);
+}
+button{
+    padding: 8px;
+    align-items: center;
+}
