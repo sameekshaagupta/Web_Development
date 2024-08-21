@@ -26,7 +26,7 @@ console.log(a.lastIndexOf("a"))
 console.log("apple".localeCompare("Apple"))
 
 //match()
-console.log(a.match(/o/g))
+console.log("matcg"+a.match(/s/g))
 
 //repeat()
 console.log("Hello ".repeat(3))
